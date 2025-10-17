@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MetaMask Wallet Connection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>🦊 Connect Your MetaMask Wallet</h1>
+    <p class="subtitle">Securely connect to your Ethereum wallet and interact with the blockchain.</p>
+    
+    <button id="connectWallet">Connect Wallet</button>
+    <p id="walletAddress" class="wallet">Wallet not connected</p>
+
+    <div class="contract">
+      <h2>Smart Contract Interaction</h2>
+      <button id="getData">Get Contract Data</button>
+      <p id="contractData">No data fetched yet.</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.10.0/dist/ethers.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
